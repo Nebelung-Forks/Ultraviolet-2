@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/titaniumnetwork-dev/ultraviolet-static/main/uv.png" height="200">
+<p align="center"><img src="https://raw.githubusercontent.com/Titanium-Network/ultraviolet-static/main/uv.png" height="200">
 </p>
 
 <h1 align="center">Ultraviolet</h1>
@@ -32,7 +32,7 @@ Ultraviolet works by intercepting HTTP requests with a service worker script tha
 
 ## Used by
 - [Incognito](https://github.com/caracal-js/Incognito), a popular web proxy service with focus on privacy
-- [Holy-Unblocker](https://github.com/titaniumnetwork-dev/Holy-Unblocker), a popular web proxy service focusing on bypassing web filters and more
+- [Holy-Unblocker](https://github.com/Titanium-Network/Holy-Unblocker), a popular web proxy service focusing on bypassing web filters and more
 - [Hypertabs](titaniumnetwork.org/), a web proxy service using a PWA browser as its frontend
 
 ## Table of Contents
@@ -51,7 +51,7 @@ Installation of Ultraviolet is simple. You can find a Tl;DR of the installation 
 ## Basic Guide
 
 ```sh
-$ git clone https://github.com/titaniumnetwork-dev/Ultraviolet-Node --recursive
+$ git clone https://github.com/Titanium-Network/Ultraviolet-Node --recursive
 $ cd Ultraviolet-Node
 $ npm install
 $ npm start
@@ -77,7 +77,7 @@ Below will describe a comprehensive guide to install Ultraviolet on Linux machin
 To clone the repository, simply run the following command:
 
 ```sh
-$ git clone https://github.com/titaniumnetwork-dev/Ultraviolet-Node --recursive
+$ git clone https://github.com/Titanium-Network/Ultraviolet-Node --recursive
 ```
 
 The `--recursive` flag will clone the repository and all submodules.
@@ -135,7 +135,7 @@ self.__uv$config = {
 
 ## Static Files
 
-Static files is the frontend for Ultraviolet. A standalone repository for it can be found [here](https://github.com/titaniumnetwork-dev/Ultraviolet-Static).
+Static files is the frontend for Ultraviolet. A standalone repository for it can be found [here](https://github.com/Titanium-Network/Ultraviolet-Static).
 
 ## Nginx configuration
 
@@ -159,11 +159,11 @@ location / {
 
 ## Core Scripts
 
-[Configuration](#configuration) mentions a few scripts that make up Ultraviolet. To get documentation for what each of the scripts do, check out the [documentation](https://github.com/titaniumnetwork-dev/Ultraviolet-Core) for them in their standalone repository.
+[Configuration](#configuration) mentions a few scripts that make up Ultraviolet. To get documentation for what each of the scripts do, check out the [documentation](https://github.com/Titanium-Network/Ultraviolet-Core) for them in their standalone repository.
 
 # Main Scripts After Building
 
-The client-hooking & service worker scripts required for UV are located in [ultraviolet-scripts](https://github.com/titaniumnetwork-dev/ultraviolet-scripts)
+The client-hooking & service worker scripts required for UV are located in [ultraviolet-scripts](https://github.com/Titanium-Network/ultraviolet-scripts)
 
 - Scripts
     - `uv.sw.js` Service worker gateway
